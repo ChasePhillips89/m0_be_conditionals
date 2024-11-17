@@ -13,7 +13,7 @@
 weather = "sunny"
 
 if weather == "sunny"
-  p "sunscreen"
+  p "drink_water"
 elsif weather == "rainy"
   p "umbrella"
 elsif weather == "snowy"
