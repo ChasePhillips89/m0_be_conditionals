@@ -23,7 +23,7 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-
+puts "Is number_teachers less than number_students" , number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
 
@@ -52,21 +52,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
-puts 4 < 9
+#puts 4 < 9
 #YOU DO: Explain.
-
+# this will print the return value of if 4 less than 9
 books = 3
-puts 4 < books
+#puts 4 < books
 # YOU DO: Explain.
-
+# this will print the return value of if 4 is less than 3(books)
 friends = 6
 siblings = 2
-puts friends > siblings
+#puts friends > siblings
 # YOU DO: Explain.
 
 attendees = 9
 meals = 8
-puts attendees != meals
+#puts attendees != meals
 # YOU DO: Explain.
 
 
@@ -79,9 +79,9 @@ finished_homework = false
 
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
-puts is_hungry && finished_homework
+# puts is_hungry && finished_homework
 # Determine if the user is hungry or has completed their homework
-puts is_hungry || finished_homework
+ #puts is_hungry || finished_homework
 
 loves_to_play = true
 loves_dog_park = false
@@ -90,16 +90,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats # true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park #false
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park #true
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+puts loves_to_play && age < 2 #true
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: puts loves_to_play && age <= 2 you determine that dog loves_to_play is true, and the age of the dog 
+# is less than two, making it a puppy
